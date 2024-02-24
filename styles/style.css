@@ -73,33 +73,33 @@ video {
   width: 100%;
 }
 
-img {
-  /*width: 100%;*/
-  object-fit: cover;
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
 }
 
 .search-form {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
   justify-content: space-between;
   font-family: 'Fira Sans Condensed';
+}
+
+.search-form__pseudo-checkbox {
+  width: 19px;
+  height: 19px;
+  margin-right: 5px;
+  border: 1px solid #fff;
+  position: relative;
 }
 
 fieldset {
   border: 0;
 }
 
-.button {
-  font-family: inherit;
-  line-height: 21.6px;
-  margin-top:auto;
-  background-color: transparent;
-  border: 1px solid #fff;
-  color: inherit;
-}
-
 .content__list {
   height: 298px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 h2 {
@@ -111,10 +111,6 @@ h2 {
 
 h2, p {
   color: #fff;
-}
-
-.content__list-item {
-  width: 394px;
 }
 
 .content__card-link {
@@ -129,12 +125,8 @@ h2, p {
   line-height: 30px;
 }
 
-.content__video-card-description-container {
-  padding-left: 2px;
-}
-
 input {
-  padding:0px 0px 0px 0px;
+  padding: 0;
   width: 225px;
   background-color: transparent;
   border: none;
@@ -170,6 +162,12 @@ h1.title {
   font-size: 18px;
   width: 194px;
   height: 34px;
+  font-family: inherit;
+  line-height: 21.6px;
+  margin-top:auto;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: inherit;
 }
 
 .content__list {
@@ -180,7 +178,6 @@ h1.title {
 .content__video-card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
   height: 107px;
   padding: 2px;
 }

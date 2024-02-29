@@ -47,7 +47,7 @@ ol {
   display: flex;
   align-items: end;
   column-gap: 30px;
-  margin: auto;
+  align-self: center;
   width: 1140px;
 }
 

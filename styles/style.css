@@ -76,7 +76,7 @@ ol {
 
 .search-form__fieldset-title {
   margin-bottom: 5px;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #fff;
@@ -87,7 +87,7 @@ ol {
   border-width: 1px 0 1px 0;
   border-style: solid;
   border-color: #fff;
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
   font-family: inherit;
   font-size: 18px;
   line-height: 21.6px;
@@ -166,6 +166,7 @@ ol {
   font-weight: bold;
   line-height: 21.6px;
   color: #fff;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -188,7 +189,7 @@ ol {
 .title {
   margin-bottom: 26px;
   text-transform: uppercase;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;

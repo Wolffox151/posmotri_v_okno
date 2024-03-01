@@ -114,7 +114,7 @@ ol {
   outline: 0;
 }
 
-.search-form__label:has(:focus-visible) {
+.search-form__label:focus-within {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
@@ -127,6 +127,7 @@ ol {
   height: 19px;
   margin-right: 5px;
   border: 1px solid #fff;
+  cursor: pointer;
 }
 
 .search-form__pseudo-checkbox::before {
@@ -151,6 +152,7 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 21.6px;
+  cursor: pointer;
 }
 
 .search-form__submit-button {
@@ -200,9 +202,9 @@ ol {
 }
 
 .content__list {
+  position: relative;
   display: grid;
   row-gap: 30px;
-  position: relative;
   height: 298px;
   padding: 2px;
   overflow-y: auto;

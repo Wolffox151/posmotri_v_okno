@@ -208,6 +208,7 @@ ol {
   height: 298px;
   padding: 2px;
   overflow-y: auto;
+  width: 399px;
 }
 
 .content__list-item {
@@ -267,7 +268,7 @@ ol {
 
 .content__video-card-thumbnail {
   height: 103px;
-  width: 194px;
+  width: 195px;
   object-fit: cover;
   object-position: center;
 }

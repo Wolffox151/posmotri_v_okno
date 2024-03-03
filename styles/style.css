@@ -107,14 +107,14 @@ ol {
 }
 
 .search-form__label:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .search-form__label:active {
-  outline: 0;
+  outline: none;
 }
 
-.search-form__label:focus-within {
+.search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
